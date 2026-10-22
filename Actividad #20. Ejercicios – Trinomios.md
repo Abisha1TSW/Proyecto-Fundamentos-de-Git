@@ -240,5 +240,5 @@ Parte del grupo de 1ºB
 ### **Ejercicio 80**
 **Enunciado:** $5x^6 - 2x^4 + 10x^2$
 * **Factor común:** $x^2(5x^4 - 2x^2 + 10)$
-* **Nota:** El trinomio no es reducible en los números reales ($\Delta = (-2)^2 - 4(5)(10) = -196 < 0$).
+* **Nota:** El trinomio no es reducible en los números reales
 * **Resultado:** $x^2(5x^4 - 2x^2 + 10)$
