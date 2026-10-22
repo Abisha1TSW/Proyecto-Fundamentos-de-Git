@@ -141,104 +141,118 @@ Parte del grupo de 1ºB
 
 ### **Ejercicio 73**
 **Enunciado:** $21x^5 + 6x^3 - 27x$
-* **Factor común:** $3x(7x^4 + 2x^2 - 9)$
-* **Aspa simple en $7x^4 + 2x^2 - 9$:**
-  * Descomposición:
-    $$7x^2 \quad \text{con} \quad 9$$
-    $$x^2 \quad \text{con} \quad -1$$
-  * Verificación del término central:
+- **Factor común:** $3x(7x^4 + 2x^2 - 9)$
+- **Aspa simple en $7x^4 + 2x^2 - 9$:**
+  * **Descomposición:**
+    | Término $x^4$ | Término independiente |
+    | :---: | :---: |
+    | $7x^2$ | $9$ |
+    | $x^2$ | $-1$ |
+  * **Verificación del término central:**
     $$(7x^2)(-1) + (x^2)(9) = -7x^2 + 9x^2 = 2x^2 \quad \checkmark$$
-  * Factores del trinomio: $(7x^2 + 9)(x^2 - 1)$
-* **Diferencia de cuadrados:** $(x^2 - 1) = (x + 1)(x - 1)$
-* **Resultado:** $3x(7x^2 + 9)(x + 1)(x - 1)$
+  * **Factores del trinomio:** $(7x^2 + 9)(x^2 - 1)$
+- **Diferencia de cuadrados:** $(x^2 - 1) = (x + 1)(x - 1)$
+- **Resultado:** $3x(7x^2 + 9)(x + 1)(x - 1)$
 
 ---
 
 ### **Ejercicio 74**
 **Enunciado:** $5x^6 + 42x^4 - 27x^2$
-* **Factor común:** $x^2(5x^4 + 42x^2 - 27)$
-* **Aspa simple en $5x^4 + 42x^2 - 27$:**
-  * Descomposición:
-    $$5x^2 \quad \text{con} \quad -3$$
-    $$x^2 \quad \text{con} \quad 9$$
-  * Verificación del término central:
+- **Factor común:** $x^2(5x^4 + 42x^2 - 27)$
+- **Aspa simple en $5x^4 + 42x^2 - 27$:**
+  * **Descomposición:**
+    | Término $x^4$ | Término independiente |
+    | :---: | :---: |
+    | $5x^2$ | $-3$ |
+    | $x^2$ | $9$ |
+  * **Verificación del término central:**
     $$(5x^2)(9) + (x^2)(-3) = 45x^2 - 3x^2 = 42x^2 \quad \checkmark$$
-  * Factores del trinomio: $(5x^2 - 3)(x^2 + 9)$
-* **Resultado:** $x^2(5x^2 - 3)(x^2 + 9)$
+  * **Factores del trinomio:** $(5x^2 - 3)(x^2 + 9)$
+- **Resultado:** $x^2(5x^2 - 3)(x^2 + 9)$
 
 ---
 
 ### **Ejercicio 75**
 **Enunciado:** $3x^4 + 2x^2 - 16$
-* **Aspa simple en $3x^4 + 2x^2 - 16$:**
-  * Descomposición:
-    $$3x^2 \quad \text{con} \quad 8$$
-    $$x^2 \quad \text{con} \quad -2$$
-  * Verificación del término central:
+- **Aspa simple en $3x^4 + 2x^2 - 16$:**
+  * **Descomposición:**
+    | Término $x^4$ | Término independiente |
+    | :---: | :---: |
+    | $3x^2$ | $8$ |
+    | $x^2$ | $-2$ |
+  * **Verificación del término central:**
     $$(3x^2)(-2) + (x^2)(8) = -6x^2 + 8x^2 = 2x^2 \quad \checkmark$$
-  * Factores: $(3x^2 + 8)(x^2 - 2)$
-* **Resultado:** $(3x^2 + 8)(x^2 - 2)$
+  * **Factores:** $(3x^2 + 8)(x^2 - 2)$
+- **Resultado:** $(3x^2 + 8)(x^2 - 2)$
 
 ---
 
 ### **Ejercicio 76**
 **Enunciado:** $7x^4 - 51x^2 - 40$
-* **Aspa simple en $7x^4 - 51x^2 - 40$:**
-  * Descomposición:
-    $$7x^2 \quad \text{con} \quad 5$$
-    $$x^2 \quad \text{con} \quad -8$$
-  * Verificación del término central:
+- **Aspa simple en $7x^4 - 51x^2 - 40$:**
+  * **Descomposición:**
+    | Término $x^4$ | Término independiente |
+    | :---: | :---: |
+    | $7x^2$ | $5$ |
+    | $x^2$ | $-8$ |
+  * **Verificación del término central:**
     $$(7x^2)(-8) + (x^2)(5) = -56x^2 + 5x^2 = -51x^2 \quad \checkmark$$
-  * Factores: $(7x^2 + 5)(x^2 - 8)$
-* **Resultado:** $(7x^2 + 5)(x^2 - 8)$
+  * **Factores:** $(7x^2 + 5)(x^2 - 8)$
+- **Resultado:** $(7x^2 + 5)(x^2 - 8)$
 
 ---
 
 ### **Ejercicio 77**
 **Enunciado:** $5a^4 - 18a^2 - 8$
-* **Aspa simple en $5a^4 - 18a^2 - 8$:**
-  * Descomposición:
-    $$5a^2 \quad \text{con} \quad 2$$
-    $$a^2 \quad \text{con} \quad -4$$
-  * Verificación del término central:
+- **Aspa simple en $5a^4 - 18a^2 - 8$:**
+  * **Descomposición:**
+    | Término $a^4$ | Término independiente |
+    | :---: | :---: |
+    | $5a^2$ | $2$ |
+    | $a^2$ | $-4$ |
+  * **Verificación del término central:**
     $$(5a^2)(-4) + (a^2)(2) = -20a^2 + 2a^2 = -18a^2 \quad \checkmark$$
-  * Factores del trinomio: $(5a^2 + 2)(a^2 - 4)$
-* **Diferencia de cuadrados:** $(a^2 - 4) = (a + 2)(a - 2)$
-* **Resultado:** $(5a^2 + 2)(a + 2)(a - 2)$
+  * **Factores del trinomio:** $(5a^2 + 2)(a^2 - 4)$
+- **Diferencia de cuadrados:** $(a^2 - 4) = (a + 2)(a - 2)$
+- **Resultado:** $(5a^2 + 2)(a + 2)(a - 2)$
 
 ---
 
 ### **Ejercicio 78**
 **Enunciado:** $7m^4 - 13m^2 + 6$
-* **Aspa simple en $7m^4 - 13m^2 + 6$:**
-  * Descomposición:
-    $$7m^2 \quad \text{con} \quad -6$$
-    $$m^2 \quad \text{con} \quad -1$$
-  * Verificación del término central:
+- **Aspa simple en $7m^4 - 13m^2 + 6$:**
+  * **Descomposición:**
+    | Término $m^4$ | Término independiente |
+    | :---: | :---: |
+    | $7m^2$ | $-6$ |
+    | $m^2$ | $-1$ |
+  * **Verificación del término central:**
     $$(7m^2)(-1) + (m^2)(-6) = -7m^2 - 6m^2 = -13m^2 \quad \checkmark$$
-  * Factores del trinomio: $(7m^2 - 6)(m^2 - 1)$
-* **Diferencia de cuadrados:** $(m^2 - 1) = (m + 1)(m - 1)$
-* **Resultado:** $(7m^2 - 6)(m + 1)(m - 1)$
+  * **Factores del trinomio:** $(7m^2 - 6)(m^2 - 1)$
+- **Diferencia de cuadrados:** $(m^2 - 1) = (m + 1)(m - 1)$
+- **Resultado:** $(7m^2 - 6)(m + 1)(m - 1)$
 
 ---
 
 ### **Ejercicio 79**
 **Enunciado:** $2x^5 - 25x^3 + 63x$
-* **Factor común:** $x(2x^4 - 25x^2 + 63)$
-* **Aspa simple en $2x^4 - 25x^2 + 63$:**
-  * Descomposición:
-    $$2x^2 \quad \text{con} \quad -7$$
-    $$x^2 \quad \text{con} \quad -9$$
-  * Verificación del término central:
+- **Factor común:** $x(2x^4 - 25x^2 + 63)$
+- **Aspa simple en $2x^4 - 25x^2 + 63$:**
+  * **Descomposición:**
+    | Término $x^4$ | Término independiente |
+    | :---: | :---: |
+    | $2x^2$ | $-7$ |
+    | $x^2$ | $-9$ |
+  * **Verificación del término central:**
     $$(2x^2)(-9) + (x^2)(-7) = -18x^2 - 7x^2 = -25x^2 \quad \checkmark$$
-  * Factores del trinomio: $(2x^2 - 7)(x^2 - 9)$
-* **Diferencia de cuadrados:** $(x^2 - 9) = (x + 3)(x - 3)$
-* **Resultado:** $x(2x^2 - 7)(x + 3)(x - 3)$
+  * **Factores del trinomio:** $(2x^2 - 7)(x^2 - 9)$
+- **Diferencia de cuadrados:** $(x^2 - 9) = (x + 3)(x - 3)$
+- **Resultado:** $x(2x^2 - 7)(x + 3)(x - 3)$
 
 ---
 
 ### **Ejercicio 80**
 **Enunciado:** $5x^6 - 2x^4 + 10x^2$
-* **Factor común:** $x^2(5x^4 - 2x^2 + 10)$
-* **Nota:** El trinomio no es reducible en los números reales
-* **Resultado:** $x^2(5x^4 - 2x^2 + 10)$
+- **Factor común:** $x^2(5x^4 - 2x^2 + 10)$
+- **Nota:** El trinomio no es reducible en los números reales
+- **Resultado:** $x^2(5x^4 - 2x^2 + 10)$
