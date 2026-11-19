@@ -1,19 +1,258 @@
-# (ejercicios 29–36)
+# Determinantes de cofactores
 
 Método: se elige la fila o columna con más ceros, se multiplica cada elemento por su signo (−1)^(i+j) y por su menor 4×4. Cada 4×4 se desarrolla de nuevo por cofactores hasta llegar a determinantes 3×3, que se resuelven con la regla de Sarrus.
 
 ## Resumen
 
-| Ejercicio | Determinante |
-|---|---|
-| 29 | **12060** |
-| 30 | **-51591** |
-| 31 | **-5263** |
-| 32 | **162932** |
-| 33 | **78822** |
-| 34 | **23082** |
-| 35 | **93135** |
-| 36 | **21708** |
+| Ejercicio | Método | Determinante |
+|---|---|---|
+| 21 | Sarrus | **-543** |
+| 22 | Sarrus | **10** |
+| 23 | Sarrus | **-1385** |
+| 24 | Sarrus | **-2781** |
+| 25 | Sarrus | **1230** |
+| 26 | Sarrus | **77** |
+| 27 | Sarrus | **753** |
+| 28 | Sarrus | **984** |
+| 29 | Cofactores | **12060** |
+| 30 | Cofactores | **-51591** |
+| 31 | Cofactores | **-5263** |
+| 32 | Cofactores | **162932** |
+| 33 | Cofactores | **78822** |
+| 34 | Cofactores | **23082** |
+| 35 | Cofactores | **93135** |
+| 36 | Cofactores | **21708** |
+
+---
+
+## Ejercicio 21
+
+```
+[ -6   0  -3 ]
+[  3   4  -8 ]
+[ 10   7  11 ]
+```
+
+Diagonales que bajan (suman):
+
+- (-6)(4)(11) = -264
+- (0)(-8)(10) = 0
+- (-3)(3)(7) = -63
+
+Suma = -327
+
+Diagonales que suben (restan):
+
+- (-3)(4)(10) = -120
+- (-6)(-8)(7) = 336
+- (0)(3)(11) = 0
+
+Suma = 216
+
+det(A) = -327 − (216) = **-543**
+
+
+---
+
+## Ejercicio 22
+
+```
+[ 10  -5   0 ]
+[  7  -2  -1 ]
+[  5  -3   1 ]
+```
+
+Diagonales que bajan (suman):
+
+- (10)(-2)(1) = -20
+- (-5)(-1)(5) = 25
+- (0)(7)(-3) = 0
+
+Suma = 5
+
+Diagonales que suben (restan):
+
+- (0)(-2)(5) = 0
+- (10)(-1)(-3) = 30
+- (-5)(7)(1) = -35
+
+Suma = -5
+
+det(A) = 5 − (-5) = **10**
+
+
+---
+
+## Ejercicio 23
+
+```
+[ -9  11   5 ]
+[  9  10   0 ]
+[ -2   9  10 ]
+```
+
+Diagonales que bajan (suman):
+
+- (-9)(10)(10) = -900
+- (11)(0)(-2) = 0
+- (5)(9)(9) = 405
+
+Suma = -495
+
+Diagonales que suben (restan):
+
+- (5)(10)(-2) = -100
+- (-9)(0)(9) = 0
+- (11)(9)(10) = 990
+
+Suma = 890
+
+det(A) = -495 − (890) = **-1385**
+
+
+---
+
+## Ejercicio 24
+
+```
+[   5   -7   12 ]
+[ -11   -5    7 ]
+[   1   10   11 ]
+```
+
+Diagonales que bajan (suman):
+
+- (5)(-5)(11) = -275
+- (-7)(7)(1) = -49
+- (12)(-11)(10) = -1320
+
+Suma = -1644
+
+Diagonales que suben (restan):
+
+- (12)(-5)(1) = -60
+- (5)(7)(10) = 350
+- (-7)(-11)(11) = 847
+
+Suma = 1137
+
+det(A) = -1644 − (1137) = **-2781**
+
+
+---
+
+## Ejercicio 25
+
+```
+[ -8   5  11 ]
+[  2   1  10 ]
+[  2  12   4 ]
+```
+
+Diagonales que bajan (suman):
+
+- (-8)(1)(4) = -32
+- (5)(10)(2) = 100
+- (11)(2)(12) = 264
+
+Suma = 332
+
+Diagonales que suben (restan):
+
+- (11)(1)(2) = 22
+- (-8)(10)(12) = -960
+- (5)(2)(4) = 40
+
+Suma = -898
+
+det(A) = 332 − (-898) = **1230**
+
+
+---
+
+## Ejercicio 26
+
+```
+[ -7   8   2 ]
+[  1  -3   2 ]
+[  0   4   1 ]
+```
+
+Diagonales que bajan (suman):
+
+- (-7)(-3)(1) = 21
+- (8)(2)(0) = 0
+- (2)(1)(4) = 8
+
+Suma = 29
+
+Diagonales que suben (restan):
+
+- (2)(-3)(0) = 0
+- (-7)(2)(4) = -56
+- (8)(1)(1) = 8
+
+Suma = -48
+
+det(A) = 29 − (-48) = **77**
+
+
+---
+
+## Ejercicio 27
+
+```
+[  -6   -4  -11 ]
+[   3   -9    6 ]
+[ -12    1  -11 ]
+```
+
+Diagonales que bajan (suman):
+
+- (-6)(-9)(-11) = -594
+- (-4)(6)(-12) = 288
+- (-11)(3)(1) = -33
+
+Suma = -339
+
+Diagonales que suben (restan):
+
+- (-11)(-9)(-12) = -1188
+- (-6)(6)(1) = -36
+- (-4)(3)(-11) = 132
+
+Suma = -1092
+
+det(A) = -339 − (-1092) = **753**
+
+
+---
+
+## Ejercicio 28
+
+```
+[  0  12   3 ]
+[  6   6  -4 ]
+[ -7  -3  -8 ]
+```
+
+Diagonales que bajan (suman):
+
+- (0)(6)(-8) = 0
+- (12)(-4)(-7) = 336
+- (3)(6)(-3) = -54
+
+Suma = 282
+
+Diagonales que suben (restan):
+
+- (3)(6)(-7) = -126
+- (0)(-4)(-3) = 0
+- (12)(6)(-8) = -576
+
+Suma = -702
+
+det(A) = 282 − (-702) = **984**
 
 ---
 
