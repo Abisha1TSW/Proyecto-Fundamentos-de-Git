@@ -704,7 +704,7 @@ La fila `0 0 0 | -1` dice 0 = -1, imposible. **El sistema es inconsistente: no t
 - `x + z = 7`
 - `2y - z = -5`
 
-Con `z = 2k + 1` (k entero): `x = 6 - 2k`, `y = k - 2`, `z = 2k + 1`
+**Con `z = 2k + 1` (k entero): `x = 6 - 2k`, `y = k - 2`, `z = 2k + 1`
 ---
 
 ## Ejercicio 50 (Gauss-Jordan)
