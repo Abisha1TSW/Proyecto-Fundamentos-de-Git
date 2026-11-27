@@ -16,7 +16,7 @@
 | 46 | Gauss-Jordan | a = 3, b = −6, c = −1 |
 | 47 | Gauss-Jordan | Sin solución |
 | 48 | Gauss-Jordan | r = 4, s = 3, t = 4 |
-| 49 | Infinitas soluciones: x = 7 - z, 2y = z - 5 (z libre) |
+| 49 | Gauss-Jordan | x = 7 - z, 2y = z - 5 (z libre) (Infinitas soluciones) |
 | 50 | Gauss-Jordan | r = −4, s = −1, t = 0 |
 | 51 | Gauss-Jordan | r = 3, s = 0, t = −1 |
 | 52 | Gauss-Jordan | x = 3, y = −2, z = −2 |
