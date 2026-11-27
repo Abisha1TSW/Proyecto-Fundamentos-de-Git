@@ -16,7 +16,7 @@
 | 46 | Gauss-Jordan | a = 3, b = −6, c = −1 |
 | 47 | Gauss-Jordan | Sin solución |
 | 48 | Gauss-Jordan | r = 4, s = 3, t = 4 |
-| 49 | Gauss-Jordan | x = 7 − t, y = −5/2 + t/2, z = t (Varias soluciones) |
+| 49 | Infinitas soluciones: x = 7 - z, 2y = z - 5 (z libre) |
 | 50 | Gauss-Jordan | r = −4, s = −1, t = 0 |
 | 51 | Gauss-Jordan | r = 3, s = 0, t = −1 |
 | 52 | Gauss-Jordan | x = 3, y = −2, z = −2 |
@@ -651,7 +651,6 @@ La fila `0 0 0 | -1` dice 0 = -1, imposible. **El sistema es inconsistente: no t
 **Comprobación:** ✓ cumple las 3 ecuaciones originales
 
 ---
-
 ## Ejercicio 49 (Gauss-Jordan)
 
 - `-6y + 3z = 15`
@@ -672,51 +671,40 @@ La fila `0 0 0 | -1` dice 0 = -1, imposible. **El sistema es inconsistente: no t
 [  0  -6   3 | 15 ]
 ```
 
-2. **R2 → R2 + 3R1** (elimina la columna 1 en la fila 2). Se simplifica dividiendo la fila 2 entre 12.
+2. **R2 → R2 + 3·R1** (se elimina el −3 de la columna 1).
 ```
 [  1  -6   4 | 22 ]
-[  0  -2   1 |  5 ]
+[  0 -24  12 | 60 ]
 [  0  -6   3 | 15 ]
 ```
 
-3. **R3 → −2R3 + 6R2** (elimina la columna 2 en la fila 3).
+3. **R2 → R2 ÷ (−12)** y **R3 → R3 ÷ (−3)** (se simplifican las filas sin fracciones).
 ```
 [  1  -6   4 | 22 ]
-[  0  -2   1 |  5 ]
+[  0   2  -1 | -5 ]
+[  0   2  -1 | -5 ]
+```
+
+4. **R3 → R3 − R2** (la fila 3 queda en ceros).
+```
+[  1  -6   4 | 22 ]
+[  0   2  -1 | -5 ]
 [  0   0   0 |  0 ]
 ```
 
-4. **R1 → −2R1 + 6R2** (elimina la columna 2 en la fila 1). Se simplifica dividiendo la fila 1 entre 2.
-```
-[ -1   0  -1 | -7 ]
-[  0  -2   1 |  5 ]
-[  0   0   0 |  0 ]
-```
-
-5. **R1 → (−1)R1** (convierte el pivote en 1).
+5. **R1 → R1 + 3·R2** (se elimina el −6 de la columna 2).
 ```
 [  1   0   1 |  7 ]
-[  0  -2   1 |  5 ]
+[  0   2  -1 | -5 ]
 [  0   0   0 |  0 ]
 ```
 
-6. **R2 → (−1/2)R2** (convierte el pivote en 1).
-```
-[    1     0     1 |    7 ]
-[    0     1  -1/2 | -5/2 ]
-[    0     0     0 |    0 ]
-```
+**Respuesta:** la última fila es `0 = 0`, así que hay **infinitas soluciones** (z es libre).
 
-La columna de **z** no tiene pivote, así que **z es variable libre**: hacemos z = t (t cualquier número real).
+- `x + z = 7`
+- `2y - z = -5`
 
-**Solución (infinitas soluciones):**
-
-- x = 7 - t
-- y = -5/2 + (1/2)t
-- z = t
-
-**Comprobación** (con t = 2): ✓
-
+Con `z = 2k + 1` (k entero): `x = 6 - 2k`, `y = k - 2`, `z = 2k + 1`
 ---
 
 ## Ejercicio 50 (Gauss-Jordan)
